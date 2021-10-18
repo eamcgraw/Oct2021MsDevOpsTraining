@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - contents/**
-  workflow-dispatch:
-  
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: windows-latest
